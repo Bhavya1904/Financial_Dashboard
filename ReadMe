@@ -1,0 +1,32 @@
+=======%%% FINANCIAL DASHBOARD README FILE %%%=======
+
+%%% PROJECT DESCRIPTION %%%
+The Financial Dashboard is a web-based application developed using Spring Boot, providing a user-friendly interface to manage and monitor financial operations. The application includes features for tracking pending payments, supply chain management, and revenue visualization, making it ideal for small and medium-sized businesses.
+The Project is running on Java17 so make sure to download jdk17 before running it.
+
+%%% HOW TO RUN %%%
+1. Clone the Repository:
+
+    git clone <repository_url>
+    cd financial-dashboard
+------------------------------------
+2. Set Up the Database:
+
+    Create a MySQL database (e.g., financial_dashboard).
+
+    Update application.properties with your database credentials:
+
+        spring.datasource.url=jdbc:mysql://localhost:3306/financial_dashboard
+        spring.datasource.username=<your_username>
+        spring.datasource.password=<your_password>
+------------------------------------
+3. Install Dependencies:
+
+    mvn install
+------------------------------------
+4. Run the Application:
+
+    mvn spring-boot:run
+
+==== OR ===
+Just run this file:- "src/main/java/com/findas/Application.java"
